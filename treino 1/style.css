@@ -262,3 +262,38 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+
+	.produtos li, .produtos p {
+		display: inline-block;
+		width: auto;
+	}
+
+	.produtos img {
+		text-align: center ;
+	}
+
+	.formulario {
+		padding: 0 10px;
+	}
+
+	.enviar {
+		width: 50%;
+	}
+}
